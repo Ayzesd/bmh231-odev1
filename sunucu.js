@@ -33,7 +33,7 @@ function createServer() {
 <html lang="tr">
 <head><meta charset="utf-8"><title>BMH231 Sunucusu</title></head>
 <body>
-<h1>BMH231 Web Sunucusu</h1>
+<h1>BMH231 Ödev Sunucusu</h1>
 <p><a href="/hakkimda">Hakkımda sayfası</a></p>
 </body>
 </html>`,
