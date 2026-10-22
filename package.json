@@ -1,0 +1,17 @@
+{
+  "name": "bmh231-odev1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sunucu.js",
+  "scripts": {
+    "start": "node sunucu.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "Bedirhan Çiftçi",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dayjs": "^1.11.23"
+  }
+}
