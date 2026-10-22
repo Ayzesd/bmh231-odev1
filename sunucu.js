@@ -46,7 +46,7 @@ function createServer() {
         response,
         200,
         'text/html',
-        '<!doctype html><html lang="tr"><head><meta charset="utf-8"><title>Hakkımda</title></head><body><h1>Bedirhan Çiftçi</h1><p>BMH231 Web Programlama dersi için hazırlanan bu sunucu, Node.js ile temel HTTP yanıtlarını sunar.</p><p><a href="/">Ana sayfaya dön</a></p></body></html>',
+        '<!doctype html><html lang="tr"><head><meta charset="utf-8"><title>Hakkımda</title></head><body><h1>Bedirhan Çiftçi</h1><p>BMH231 Web Programlama dersi için hazırlanan bu sunucu, Node.js ile temel HTTP yanıtlarını sunar.</p><p>Proje; GET isteklerini, durum kodlarını ve JSON yanıtlarını örnekler.</p><p><a href="/">Ana sayfaya dön</a></p></body></html>',
       );
       return;
     }
