@@ -21,6 +21,27 @@ Sunucu `http://localhost:3000` adresinde çalışır. Durdurmak için terminalde
 
 Sunucu uç noktalarını doğrulamak için ayrı bir terminalde `npm test` komutunu çalıştırın.
 
+## Örnek API yanıtları
+
+`GET /api/ders` yanıtı:
+
+```json
+{
+  "kod": "BMH231",
+  "ad": "Web Programlama",
+  "gun": "Belirtilmedi"
+}
+```
+
+`GET /api/agep` yanıtındaki `kalanGun` değeri, çalıştırıldığı günün tarihine göre değişir:
+
+```json
+{
+  "sonTarih": "01.11.2026",
+  "kalanGun": 10
+}
+```
+
 ## Desteklenen yollar
 
 | Yöntem | Yol | Durum | Yanıt |
