@@ -9,7 +9,7 @@ Node.js'in yerleşik `http` modülü ve `dayjs` paketiyle hazırlanmış, HTTP y
 ## Kurulum ve çalıştırma
 
 ```powershell
-git clone https://github.com/<GitHub-kullanici-adiniz>/bmh231-odev1.git
+git clone https://github.com/Ayzesd/bmh231-odev1.git
 cd bmh231-odev1
 npm install
 npm start
@@ -57,5 +57,4 @@ Her yanıt UTF-8 karakter kodlaması bildirir. İsteklerin yöntemi ve yolu sunu
 
 ## Kişiselleştirme notları
 
-- GitHub deposunu oluşturduktan sonra README'deki `<GitHub-kullanici-adiniz>` bölümünü kendi kullanıcı adınızla değiştirin ve yerel depoya GitHub remote'u ekleyin.
 - `/api/ders` yanıtındaki `gun` alanı, dersin haftanın hangi günü olduğuna ilişkin bilgi verilmediği için `Belirtilmedi` olarak bırakılmıştır. Teslim etmeden önce gerçek ders günüyle güncelleyin.
