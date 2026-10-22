@@ -42,7 +42,7 @@ test('GET /api/ders returns the course JSON', async () => {
   assert.deepEqual(await response.json(), {
     kod: 'BMH231',
     ad: 'Web Programlama',
-    gun: 'Belirtilmedi',
+    gun: 'Cuma',
   });
 });
 

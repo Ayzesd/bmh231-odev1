@@ -29,7 +29,7 @@ Sunucu uç noktalarını doğrulamak için ayrı bir terminalde `npm test` komut
 {
   "kod": "BMH231",
   "ad": "Web Programlama",
-  "gun": "Belirtilmedi"
+  "gun": "Cuma"
 }
 ```
 
@@ -57,4 +57,4 @@ Her yanıt UTF-8 karakter kodlaması bildirir. İsteklerin yöntemi ve yolu sunu
 
 ## Kişiselleştirme notları
 
-- `/api/ders` yanıtındaki `gun` alanı, dersin haftanın hangi günü olduğuna ilişkin bilgi verilmediği için `Belirtilmedi` olarak bırakılmıştır. Teslim etmeden önce gerçek ders günüyle güncelleyin.
+- `/api/ders` yanıtı BMH231 ders gününü Cuma olarak bildirir.

@@ -64,12 +64,12 @@ Transfer-Encoding: chunked
 ```http
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Date: Thu, 22 Oct 2026 17:21:57 GMT
+Date: Thu, 22 Oct 2026 17:24:30 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 Transfer-Encoding: chunked
 
-{"kod":"BMH231","ad":"Web Programlama","gun":"Belirtilmedi"}
+{"kod":"BMH231","ad":"Web Programlama","gun":"Cuma"}
 ```
 
 ### `curl -i http://localhost:3000/api/agep`
@@ -169,6 +169,6 @@ Yerel `/api/agep` yanıtının `Content-Type` değeri `application/json; charset
 
 Yerel sunucu internete açılacaksa TLS sertifikasıyla HTTPS, HTTP'den HTTPS'e kalıcı yönlendirme, uygun `Strict-Transport-Security`, içerik güvenliği ve önbellek başlıkları eklenmelidir. Önbellek ayarı, değişmeyen statik kaynakları kısa veya uzun süre saklarken API yanıtları için güncellik ve kişisel veri gereksinimlerine göre belirlenmelidir. Ayrıca hata kayıtları, güvenli yapılandırma, giriş/istek sınırlandırması ve CDN gibi dağıtım özellikleri operasyonel güvenilirliği artırabilir. Buradaki süreler tarayıcı gezinti ölçümüdür; dersin istediği ekran görüntüsü ve Network sekmesi kanıtı için öğrencinin kendi tarayıcısında aynı URL'leri açıp ölçümü ve ekran görüntüsünü rapora eklemesi gerekir.
 
-## Teslim öncesi kişiselleştirme
+## Kişiselleştirme
 
-`/api/ders` yanıtındaki ders günü şu an `Belirtilmedi` değerindedir; gerçek haftalık ders günü öğrenilip `sunucu.js`, test ve README'de güncellenmelidir. Raporun `curl` kayıtlarında da bu mevcut yanıt açıkça gösterilmiştir.
+BMH231 ders günü kullanıcı tarafından Cuma olarak bildirildi ve `/api/ders` yanıtına, teste ve README'ye işlendi.

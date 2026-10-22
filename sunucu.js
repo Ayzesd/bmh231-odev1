@@ -59,7 +59,7 @@ function createServer() {
         JSON.stringify({
           kod: 'BMH231',
           ad: 'Web Programlama',
-          gun: 'Belirtilmedi',
+          gun: 'Cuma',
         }),
       );
       return;
